@@ -13,6 +13,10 @@
 		9DD54CA520286EBE00EC92BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD54CA320286EBE00EC92BF /* Main.storyboard */; };
 		9DD54CA720286EBE00EC92BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD54CA620286EBE00EC92BF /* Assets.xcassets */; };
 		9DD54CAA20286EBE00EC92BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD54CA820286EBE00EC92BF /* LaunchScreen.storyboard */; };
+		9DD54CB62028959300EC92BF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD54CB52028959300EC92BF /* ThirdViewController.swift */; };
+		9DD54CB92028AAF400EC92BF /* pun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DD54CB72028AAF400EC92BF /* pun.jpg */; };
+		9DD54CBA2028AAF400EC92BF /* pun 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DD54CB82028AAF400EC92BF /* pun 2.jpg */; };
+		9DD54CBC2028BE5500EC92BF /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD54CBB2028BE5500EC92BF /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9DD54CA620286EBE00EC92BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD54CA920286EBE00EC92BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DD54CAB20286EBE00EC92BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD54CB52028959300EC92BF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9DD54CB72028AAF400EC92BF /* pun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pun.jpg; path = ../../../Downloads/pun.jpg; sourceTree = "<group>"; };
+		9DD54CB82028AAF400EC92BF /* pun 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pun 2.jpg"; path = "../../../Downloads/pun 2.jpg"; sourceTree = "<group>"; };
+		9DD54CBB2028BE5500EC92BF /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				9DD54C9F20286EBE00EC92BF /* FirstViewController.swift */,
 				9DD54CA120286EBE00EC92BF /* SecondViewController.swift */,
 				9DD54CA320286EBE00EC92BF /* Main.storyboard */,
+				9DD54CB82028AAF400EC92BF /* pun 2.jpg */,
+				9DD54CB72028AAF400EC92BF /* pun.jpg */,
 				9DD54CA620286EBE00EC92BF /* Assets.xcassets */,
 				9DD54CA820286EBE00EC92BF /* LaunchScreen.storyboard */,
 				9DD54CAB20286EBE00EC92BF /* Info.plist */,
+				9DD54CB52028959300EC92BF /* ThirdViewController.swift */,
+				9DD54CBB2028BE5500EC92BF /* FourthViewController.swift */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -127,7 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD54CAA20286EBE00EC92BF /* LaunchScreen.storyboard in Resources */,
+				9DD54CB92028AAF400EC92BF /* pun.jpg in Resources */,
 				9DD54CA720286EBE00EC92BF /* Assets.xcassets in Resources */,
+				9DD54CBA2028AAF400EC92BF /* pun 2.jpg in Resources */,
 				9DD54CA520286EBE00EC92BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +155,9 @@
 			files = (
 				9DD54CA220286EBE00EC92BF /* SecondViewController.swift in Sources */,
 				9DD54C9E20286EBE00EC92BF /* AppDelegate.swift in Sources */,
+				9DD54CB62028959300EC92BF /* ThirdViewController.swift in Sources */,
 				9DD54CA020286EBE00EC92BF /* FirstViewController.swift in Sources */,
+				9DD54CBC2028BE5500EC92BF /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
